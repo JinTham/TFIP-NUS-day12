@@ -10,7 +10,7 @@ import tfip.ssf.day12.repository.ItemRepo;
 
 @Service
 public class ItemService {
-    @Autowired
+    @Autowired //autowired is to auto construct an ItemRepo object
     ItemRepo itemRepo;
 
     public List<Item> retrieveItemList(){
